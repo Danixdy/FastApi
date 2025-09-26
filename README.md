@@ -1,8 +1,25 @@
+Endpoint /login
+
+Método: POST
+
+Body (JSON):
+
 {
-  "userName": "user1",
-  "password": "12345"
+  "userName": "admin",
+  "password": "password123"
 }
 
+
+Respuestas posibles:
+
+Login exitoso:
+
+{
+  "message": "Login successful"
+}
+
+
+Credenciales inválidas:
 
 {
   "message": "Invalid credentials"
